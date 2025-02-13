@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffe6e6 url('background.png') repeat;
+    text-align: center;
+}
+
+.container {
+    margin-top: 15%;
+}
+
+h1 {
+    color: #333;
+    font-size: 2em;
+}
+
+.cat {
+    width: 200px;
+    margin: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+}
+
+.thanks {
+    display: none;
+    margin-top: 15%;
+}
+
+.cat-video {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Валентинка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ты будешь моей валентинкой?</h1>
+        <!-- Видео с котиком -->
+        <video class="cat-video" autoplay loop muted>
+            <source src="videos/cat.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+        <div class="buttons">
+            <button class="yes" onclick="showThanks()">Да</button>
+            <button class="no" onclick="moveButton(this)">Нет</button>
+        </div>
+    </div>
+    <div class="thanks" id="thanks">
+        <h2>Урааа, спасибо!</h2>
+        <video class="cat-video" autoplay loop muted>
+            <source src="videos/happy_cat.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
